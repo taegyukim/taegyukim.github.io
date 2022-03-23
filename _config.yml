@@ -1,39 +1,38 @@
 # Site
-repository: sproogen/resume-theme
+repository: taegyukim/taegyukim.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 김태규
+title: 웹 프론트엔드 개발자
+email: tgkim0814@gmail.com
+website: www.github.com/taegyukim
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+github_username: taegyukim
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: kim-taegyu-31685718a
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,71 +45,122 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  사용자에게 좋은 UX를 제공하는 것을 좋아해 웹 프론트엔드 개발을 하고 있습니다. 사람들과 협업하며 함께 일하는 것을 좋아하고, 좋은 의사소통을 중요하게 생각합니다. 재사용성과 확장성을 고려하는 코드를 작성하고 책임감 있게 개발하려고 노력합니다. 기계적으로 주어진 업무만을 하는 것이 아니라 어떤 일인지, 왜 필요한 일인지를 이해하고 더 잘 해낼 수 있는 방향을 생각하며 수행해야 더 잘할 수 있다고 믿습니다. 주변 사람들에게 계속해서 배우려고 합니다. 도전적인 문제를 해결하는 과정과 새로운 지식을 배우는 것을 좋아합니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  2019년 11월부터 현역 산업기능요원으로 복무중에 있습니다. (2022년 9월 소집해제 예정)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Watcha
+        link: https://watcha.team/
+        sub_title: 웹 프론트엔드 개발자
+        caption: 2020.5 - 현재
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          <mark>WatchaPedia</mark>
+          * 왓챠피디아 리브랜딩, 웹툰 도메인 확장, 기타 피쳐 및 UI 개선 작업
+          * 왓챠피디아 앱의 마이페이지를 포함한 다수의 웹뷰 페이지 개발
+          * 코드 아키텍쳐 개선 및 기술부채 축소 작업
+          * 웹 전체 로그 재설계 및 적용
+      - layout: left
+        title: Ateam Ventures
+        link: https://capa.ai/
+        sub_title: 웹 프론트엔드 개발자
+        caption: 2019.10 - 2020.5
+        description: | # this will include new lines to allow paragraphs
+          <mark>Creatable</mark>, <mark>Creatable Back Office</mark>, <mark>Creatable Partner Service</mark>
+          * Creatable(현 CAPA) 웹 서비스 페이지 및 어드민 페이지, 파트너사 페이지 개발
+          * 웹사이트 로딩 속도 개선 및 GA 사용한 로그 시스템 적용
+
+          <mark>CR UIkit</mark>
+          * Ant design을 기반으로 한 UI 컴포넌트 라이브러리의 유지보수
+          * Material UI를 기반으로 storybook을 사용한 UI 컴포넌트 라이브러리 신규 개발
+
+          <mark>CAPA</mark>
+          * 신규 서비스의 초기 설계 및 개발
+          * 실시간 채팅 서비스의 프론트엔트 파트 개발
+      - layout: left
+        title: DeDev
+        sub_title: 웹 프론트엔드 개발자, PM
+        caption: 2017.9 - 2019.7
+        description: | # this will include new lines to allow paragraphs
+          <mark>DeDe Network</mark>
+          * 이더리움 기반 파생상품 거래 플랫폼 웹 페이지 개발
+          * 랜딩 페이지, 뉴스레터 가입 페이지 등 개발
+
+          <mark>Ethernal</mark>
+          * 소셜 블로깅 서비스의 초기 프로덕트 UI 기획 및 설계
+          * UI 컴포넌트 코드 작성 및 반응형 웹 개발 경험
+
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title: sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * HTML5, CSS3, JavaScript(ES6+), TypeScript
+          * React, NodeJS, MobX, Redux, SWR, storybook
+          * webpack, babel
+      - layout: left
+        title: etc.
+        description: | # this will include new lines to allow paragraphs
+          * Python, SQL
+          * Git, Figma
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 연세대학교
+        caption: 2015 - 2019
+        sub_title: 글로벌융합공학부
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          * 학과 내부 창업지원프로그램 활동
+          * LG x DFK 산학협력 IoT 기기 개발 프로그램 참여 - 아두이노 기반 하드웨어, 소프트웨어 설계 및 개발 담당
+          * [MCML](https://mcml.yonsei.ac.kr/) Research Intern
+          * 6학기 간 전액장학금 및 연구비 수혜
+      - layout: left
+        title: 서울과학고등학교
+        caption: 2012 - 2015
+        description: | # this will include new lines to allow paragraphs
+          * 화학, 생물학을 중점적으로 공부
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      사람들과 함께하는 것을 좋아합니다. 협업하는 것에서 동기부여를 받고, 페이스를 유지하는 원동력으로 삼습니다. 서로 도움을 주고 받으며 배워가는 것이 가장 좋은 성장 방법 중 하나라고 믿습니다.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      프론트엔드 개발 외에도 다양한 것들에 관심이 있습니다. UX와 비즈니스에 관해 얘기하는 것을 좋아하고, 데이터를 다루는 여러 방식을 공부해가고 있습니다. 더 좋은 프론트엔드 개발자가 되기 위해 백엔드와 인프라 역량을 키우려는 노력을 하고 있습니다.
+
+      개발 외적으로 다음과 같은 취미들이 있습니다.
+      - 게이밍
+      - 악기 연주
+      - 다양한 주제의 토론
 
 # Footer
 footer_show_references: true
@@ -124,4 +174,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
